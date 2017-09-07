@@ -6,6 +6,7 @@ $link3 : #AB7539;
 $bgColor : #27576C;
 $fFamily : Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $fSize : 12px;
+$pad : 5px;
 
 @mixin test($txt,$bg){
     text-align: $txt;
@@ -15,7 +16,7 @@ $fSize : 12px;
 /* Global Settings */
 
 * {
-    padding: 0;
+    padding: $pad - 5;
     margin: 0;
 }
 
@@ -35,7 +36,7 @@ header {
 
 nav {
     background-color: lighten($bgColor,10%);
-    padding: 5px;
+    padding: $pad;
     text-align: center;
 }
 
@@ -43,7 +44,7 @@ nav li>a {
     color: $link1;
     text-decoration: none;
     margin: 2px 10px 2px 10px;
-    padding: 5px;
+    padding: $pad;
     font-family: serif;
 }
 
@@ -64,7 +65,7 @@ figure {
     background-color: #467387;
     display: inline-block;
     margin: 5px;
-    padding: 5px;
+    padding: $pad;
 }
 
 #container {
