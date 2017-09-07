@@ -1,9 +1,9 @@
 /* CSS Document */
-$link1 = #FFD7AA;
-$link2 = #632871;
-$link3 = #AB7539;
-$bgColor = #27576C;
-$fFamily = Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$link1 : #FFD7AA;
+$link2 : #632871;
+$link3 : #AB7539;
+$bgColor : #27576C;
+$fFamily : Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Global Settings */
 
@@ -26,7 +26,7 @@ header {
 }
 
 nav {
-    background-color: $bgColor;
+    background-color: lighten($bgColor,10%);
     padding: 5px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ nav li {
 }
 
 footer {
-    background-color: $bgColor;
+    background-color: lighten($bgColor,10%);
     text-align: center;
 }
 
@@ -75,8 +75,10 @@ h1 {
 }
 
 h6 {
-    font-family: $fFamily;
-    font-size: 12px;
+    font{
+        family: $fFamily;
+        size: 12px;
+    }
     color: #6E92A2;
 }
 
@@ -87,14 +89,18 @@ h2 {
 }
 
 p {
-    font-family: $fFamily;
-    font-size: 18px;
+    font{
+        family: $fFamily;
+        size: 18px;
+    }
     color: #023D3F;
 }
 
 nav {
-    font-family: $fFamily;
-    font-size: 12px
+    font{
+        family: $fFamily;
+        size: 12px
+    }
 }
 
 nav a:link {

@@ -14,7 +14,7 @@ header {
   text-align: center; }
 
 nav {
-  background-color: #27576C;
+  background-color: #357591;
   padding: 5px;
   text-align: center; }
 
@@ -32,7 +32,7 @@ nav li {
   display: inline; }
 
 footer {
-  background-color: #27576C;
+  background-color: #357591;
   text-align: center; }
 
 figure {
@@ -49,27 +49,29 @@ figure {
 
 /* Text Elements */
 h1 {
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 0px #27576C; }
 
 h6 {
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
   color: #6E92A2; }
+  h6 font {
+    family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    size: 12px; }
 
 h2 {
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #AD9EB0;
   text-shadow: 1px 1px 0px #27576C; }
 
 p {
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
   color: #023D3F; }
+  p font {
+    family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    size: 18px; }
 
-nav {
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px; }
+nav font {
+  family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  size: 12px; }
 
 nav a:link {
   color: #FFD7AA; }
