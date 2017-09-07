@@ -9,9 +9,9 @@ body {
   background-color: #6E92A2; }
 
 header {
+  text-align: center;
   background-color: #632871;
-  color: #9E72A9;
-  text-align: center; }
+  color: #9E72A9; }
 
 nav {
   background-color: #357591;
@@ -48,7 +48,7 @@ figure {
   max-height: 750px; }
 
 /* Text Elements */
-h1 {
+h1, h2 {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 0px #27576C; }
 
@@ -59,9 +59,7 @@ h6 {
     size: 12px; }
 
 h2 {
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #AD9EB0;
-  text-shadow: 1px 1px 0px #27576C; }
+  color: #AD9EB0; }
 
 p {
   color: #023D3F; }

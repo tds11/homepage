@@ -1,9 +1,15 @@
 /* CSS Document */
+//SASS Variables
 $link1 : #FFD7AA;
 $link2 : #632871;
 $link3 : #AB7539;
 $bgColor : #27576C;
 $fFamily : Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@mixin test($txt,$bg){
+    text-align: $txt;
+    background-color: $bg;
+}
 
 /* Global Settings */
 
@@ -20,9 +26,10 @@ body {
 }
 
 header {
-    background-color: $link2;
+    @include test(center,$link2);
+
     color: #9E72A9;
-    text-align: center;
+
 }
 
 nav {
@@ -83,9 +90,8 @@ h6 {
 }
 
 h2 {
-    font-family: $fFamily;
+    @extend h1;
     color: #AD9EB0;
-    text-shadow: 1px 1px 0px $bgColor
 }
 
 p {
