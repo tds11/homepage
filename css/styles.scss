@@ -5,6 +5,7 @@ $link2 : #632871;
 $link3 : #AB7539;
 $bgColor : #27576C;
 $fFamily : Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$fSize : 12px;
 
 @mixin test($txt,$bg){
     text-align: $txt;
@@ -84,7 +85,7 @@ h1 {
 h6 {
     font{
         family: $fFamily;
-        size: 12px;
+        size: $fSize;
     }
     color: #6E92A2;
 }
@@ -97,7 +98,7 @@ h2 {
 p {
     font{
         family: $fFamily;
-        size: 18px;
+        size: $fSize*1.5;
     }
     color: #023D3F;
 }
@@ -105,7 +106,7 @@ p {
 nav {
     font{
         family: $fFamily;
-        size: 12px
+        size: $fSize;
     }
 }
 
