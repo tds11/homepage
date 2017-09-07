@@ -1,5 +1,9 @@
 /* CSS Document */
-
+$link1 = #FFD7AA;
+$link2 = #632871;
+$link3 = #AB7539;
+$bgColor = #27576C;
+$fFamily = Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Global Settings */
 
@@ -16,19 +20,19 @@ body {
 }
 
 header {
-    background-color: #632871;
+    background-color: $link2;
     color: #9E72A9;
     text-align: center;
 }
 
 nav {
-    background-color: #27576C;
+    background-color: $bgColor;
     padding: 5px;
     text-align: center;
 }
 
 nav li>a {
-    color: #FFD7AA;
+    color: $link1;
     text-decoration: none;
     margin: 2px 10px 2px 10px;
     padding: 5px;
@@ -44,7 +48,7 @@ nav li {
 }
 
 footer {
-    background-color: #27576C;
+    background-color: $bgColor;
     text-align: center;
 }
 
@@ -66,39 +70,39 @@ figure {
 /* Text Elements */
 
 h1 {
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    text-shadow: 1px 1px 0px #27576C;
+    font-family: $fFamily;
+    text-shadow: 1px 1px 0px $bgColor;
 }
 
 h6 {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $fFamily;
     font-size: 12px;
     color: #6E92A2;
 }
 
 h2 {
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-family: $fFamily;
     color: #AD9EB0;
-    text-shadow: 1px 1px 0px #27576C
+    text-shadow: 1px 1px 0px $bgColor
 }
 
 p {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $fFamily;
     font-size: 18px;
     color: #023D3F;
 }
 
 nav {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $fFamily;
     font-size: 12px
 }
 
 nav a:link {
-    color: #FFD7AA;
+    color: $link1;
 }
 
 nav a:hover {
-    background-color: #AB7539;
+    background-color: $link3;
 }
 
 nav a:active {
@@ -106,15 +110,15 @@ nav a:active {
 }
 
 footer a:link {
-    color: #FFD7AA;
+    color: $link1;
 }
 
 footer a:visited {
-    color: #632871;
+    color: $link2;
 }
 
 footer a:hover {
-    background-color: #AB7539;
+    background-color: $link3;
 }
 
 footer a:active {
